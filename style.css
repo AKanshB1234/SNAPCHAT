@@ -1,0 +1,43 @@
+#body{
+    background-image: url("guitar.jpg");
+}
+canvas{
+    border-color: black;
+    border-width: 1px;
+    border-style: ridge;
+    margin-top: 30px;
+    animation: colors 2s infinite; 
+    
+}
+
+@keyframes colors{
+    0%{
+        box-shadow: 5px 5px 38px red;
+    }
+    25%{
+        box-shadow: 5px 5px 38px purple;
+    }
+    50%{
+        box-shadow: 5px 5px 38px cyan;
+    }
+    50%{
+        box-shadow: 5px 5px 38px beige;
+    
+    }
+    75%{
+        box-shadow: 5px 5px 38px green;
+    }
+    100%{
+        box-shadow: 5px 5px 38px peru;
+    }
+    105%{
+        box-shadow: 5px 5px 38px yellowgreen;
+    }
+}
+select{
+    background-color: gold;
+    color:  white;
+    width: 100px;
+    height: 50px;
+    border-radius: 50px;
+}
